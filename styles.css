@@ -1,0 +1,46 @@
+body{
+	font-family:sans-serif;
+	background:gainsboro ;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: steelblue;
+	width: 100%;
+	max-width: 1000px;
+    margin:auto; 
+}
+.menu li a{
+	text-decoration: blink;
+	color: white;
+	padding: 25px;
+	display: block;
+} 
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+.menu li a:hover{
+	background: powderblue;
+}
+.texto{
+	padding: 30px;
+}	
+.con{
+	padding: 50px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+.con h2{
+	color: steelblue;
+	text-align: center;
+	margin-bottom: 55px;
+}
+.contexto{
+    color: steelblue;
+	background: url(bmw5.jpg);
+	width: 100%;
+	height: 550px;
+}
